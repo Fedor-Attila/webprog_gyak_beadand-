@@ -1,3 +1,4 @@
+
 <?php
 session_start();
 
@@ -21,3 +22,4 @@ session_start();
 $_SESSION['flash'] = "Sikeresen kiléptél!";
 header("Location: ../index.php?page=belepes");
 exit;
+

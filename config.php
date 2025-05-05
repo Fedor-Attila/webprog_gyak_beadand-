@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 // Weboldal címe
 $siteTitle = "Webprog Beadandó Projekt";
@@ -44,3 +45,27 @@ try {
 // Munkamenet indítása
 session_start();
 ?>
+=======
+<?php
+// Weboldal címe
+$siteTitle = "Webprog Beadandó Projekt";
+
+// Menüpontok tömbje: 'kulcs' => 'Megjelenítendő név'
+$menuItems = [
+    'fooldal'    => 'Főoldal',
+    'kepek'      => 'Képek',
+    'kapcsolat'  => 'Kapcsolat',
+    'uzenetek'   => 'Üzenetek',
+    'belepes'    => 'Belépés',
+    'kilepes'    => 'Kilépés'
+];
+
+// Adatbázis kapcsolat beállításai
+$db_config = [
+    'host'     => 'localhost',
+    'dbname'   => 'ccp9c6',
+    'user'     => 'ccp9c6',
+    'password' => '19910226' // FIGYELEM: csak helyi fejlesztéshez, publikáláskor ezt cseréld!
+];
+?>
+>>>>>>> f9ba923058941e72b8d81edef34c580d2d8ce390
